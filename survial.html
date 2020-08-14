@@ -1,0 +1,57 @@
+<!doctype html>
+
+<head>
+    <title>Zombie apocylpse Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <a href="info.html">ZOMBIE INFO</a>
+            <a href="index.html">HOME</a>
+            <a href="survial.html">SURVIVAL</a>
+        </nav>
+        <script>
+//            these are the challenges that you get when you press the challenge.
+          var answers = ['kill 5 zombies with axe','kill 45 with a pistol','kill 25 zombies with a chainsaw','loot a house with out getting jumped by a zombie','find a car to keep your stuff','find gas canaster','find a ammo crate','find a hide out','survive a bunch of a zombie hoard'];
+    function testing(){
+       var rand = Math.floor(Math.random()*answers.length);
+        document.getElementById('text'). innerHTML = answers[rand];
+//        this is a code for the challenges.
+    }
+       
+    </script>
+        
+        <section class="shop">
+<!-- where you can write in the information to show information about in the website.-->
+            <h1>
+                Weapons:axe: is a good secondary for when you need to reload and you can't in time it is also a great wepon to breack down doors
+            </h1>
+                <img src="images/axe.png" alt="axe">
+            <h1>
+                chainsaw:chainsaw is a good source for quick killing zombies also not really good for one zombie but for a bunch like three or four zombies at a time.
+            </h1>
+                <img src ="images/H110-0522.png" alt="chainsaw">
+            <h1>pistol: the pistol is probably the best secondary it is the quickest to pull out and start shooting it does not have a lot of ammo.</h1>
+            <img src="images/pistol.png" alt="pistol">
+            <h1>ak47: an ak is a really good wepon that dont need to reloaded every minute if you have good accuracy it will last you long 30 bullets on zombie per bullet is 30 kills</h1>
+            <img src='images/ak47.jfif' alt="ak47">
+            <h1>
+            cars: never leave your car doors open the zombies will try and get in and hide in the back seat and when you get in will start attacking you.
+            </h1>
+            <img src="images/cardooring.jpg" alt="cardooropening">
+            <h1>
+            bathroom: never be relaxed be ready for any thing that can happen all ways bring a secondary or a gun with you if it is a gun make sure its a pistol then you can pull it out in time.
+            </h1>
+            <img src="images/bathroom-stalls-23850.jpg" alt="bathroom">
+            <h1>always check every room in the house to make sure no zombie is going to get you while your looting the house.</h1>
+            <img src="images/house.webp" alt="house looting">
+            
+            <div class="challenge">
+                <button onclick="testing()">Challenge</button>
+                <p id="text"></p>
+            </div>
+        </section>
+    </div>
+</body>
