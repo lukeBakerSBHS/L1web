@@ -1,6 +1,10 @@
 @font-face {
-  font-family: fonty;
-  src: url(fonts/zombnze.ttf);
+  font-family: fonts;
+  src: url(fonts/ZOMBYE.otf);
+}
+@font-face {
+    font-family: fonty;
+  src: url(fonts/zombnze.ttf); 
 }
 
 /*background image*/
@@ -8,6 +12,7 @@ html {
     background-image: url('images/bg.jpg');
     background-size: 100vw 100vh;
     background-attachment: fixed;
+    font-family: fonts;
 }
 
 *{
@@ -54,6 +59,8 @@ h1{
     padding: 10px;
     margin: auto;
     color: red;
+    font-family: fonts;
+    font-size: 30px;
 }
 
 /*the display of the grids/colums*/
